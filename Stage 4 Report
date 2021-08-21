@@ -1,3 +1,1 @@
-1. 12 Bit adder is designed using 4 bit CLA logic (uploaded adder_12bit.v and tb_CLA12bit_newway.v)
-2. Test bench is written to verify the design. 
-3. Simulation is carried using iVerilog 
+
