@@ -72,5 +72,17 @@ Terminal snap (To perform pre-layout simulation)
  
 ### Layout vs Schematic
 
+- Subcircuit Summary
+
 ![subckt](https://user-images.githubusercontent.com/52724861/131203167-686bd830-94ca-488e-91bf-13057ecabcde.png)
+
+- Subcircuits Pins
+
+![lvs_pins](https://user-images.githubusercontent.com/52724861/131203218-2a29b06a-b6b0-4448-98c4-5ff8dbb97b49.png)
+
+## Final Summary
+
+![final_sum](https://user-images.githubusercontent.com/52724861/131203272-aadc705b-ce25-4b5a-9bd0-e4825e2d63d3.png)
+
+
 
