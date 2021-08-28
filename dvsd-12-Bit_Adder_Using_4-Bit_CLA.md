@@ -42,12 +42,35 @@ OpenLane is an automated RTL to GDSII flow based on several components including
         - Klayout - Performs DRC Checks
         - Netgen - Performs LVS Checks
         - CVC - Performs Circuit Validity Checks
+        - 
+# Installation
+
+## Prerequisites
+
+   - Preferred Ubuntu OS)
+   -  Docker 19.03.12+
+   - GNU Make
+   - Python 3.6+ with PIP
+   - Click, Pyyaml: pip3 install pyyaml click
+   
+git clone https://github.com/The-OpenROAD-Project/OpenLane.git
+
+cd OpenLane/
+
+make openlane
+
+make pdk
+
+make test # This a ~5 minute test that verifies that the flow and the pdk were properly installed
+
 
 
 # Running OpenLane
 Use the command - make mount
 
 Use the following example to check the overall setup:
+
+- Note - Default PDK_ROOT is $(pwd)/pdks. 
 
 ./flow.tcl -design spm
 To run openlane in interactive mode
