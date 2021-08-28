@@ -12,6 +12,7 @@ This work is to prodece a clean GDS required to print photomasks used for the fa
 Use the command - make mount
 
 Use the following example to check the overall setup:
+
 ./flow.tcl -design spm
 To run openlane in interactive mode
 ./flow.tcl -interactive
