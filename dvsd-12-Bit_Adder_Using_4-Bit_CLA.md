@@ -70,14 +70,15 @@ Run the following commands to Install Openlane
 # Running OpenLane
 Use the command - make mount
 
+![mount](https://user-images.githubusercontent.com/52724861/131204558-54a5ce8e-843d-4759-b7d3-ee096dc7b545.png)
+
 Use the following example to check the overall setup:
 
-- Note - Default PDK_ROOT is $(pwd)/pdks. 
-
 ./flow.tcl -design spm
-To run openlane in interactive mode
-./flow.tcl -interactive
 
+To run openlane in interactive mode
+
+./flow.tcl -interactive
 
 # Pre-layout
 ## Simulation
@@ -86,6 +87,15 @@ Terminal snap (To perform pre-layout simulation)
 
 #### GTKWave Output Waveform
 ![12bit_Adder_Simulation](https://user-images.githubusercontent.com/52724861/131189559-6e7e631b-0213-42ff-b48d-ecbad05e19a2.png)
+
+### Synthesis
+- In our design, Run - flow.tcl -design dvsd_adder_12bit -src my/dvsd_adder_12bit.v -init_design_config
+
+![flow](https://user-images.githubusercontent.com/52724861/131204635-d3b565a0-5093-4982-9333-ed6d2ebb3e60.png)
+
+Make the Required changes in the generated .config.tcl and Run
+
+flow.tcl -design dvsd_adder_12bit -tag first_run
 
 #### Synthesis Reports
 ![yosys](https://user-images.githubusercontent.com/52724861/131190367-30fb5795-6ab9-4d62-aadb-34d64851de76.png)
