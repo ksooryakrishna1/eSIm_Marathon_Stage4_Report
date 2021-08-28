@@ -63,6 +63,14 @@ Terminal snap (To perform pre-layout simulation)
 
 ![placem](https://user-images.githubusercontent.com/52724861/131198167-6e192e0d-7511-492a-963a-f40ae35a504b.png)
 
-## Layout
+### Layout
 
+![layout](https://user-images.githubusercontent.com/52724861/131203118-92bb560e-e4c4-4bc6-a350-722b5235e71e.png)
+- Closer View of the Final Layout Design
+
+![layout_closer](https://user-images.githubusercontent.com/52724861/131203139-a2ff1dbd-9434-489b-bca1-5ded9a5e15b4.png)
+ 
+### Layout vs Schematic
+
+![subckt](https://user-images.githubusercontent.com/52724861/131203167-686bd830-94ca-488e-91bf-13057ecabcde.png)
 
