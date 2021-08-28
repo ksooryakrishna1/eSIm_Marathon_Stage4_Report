@@ -52,16 +52,18 @@ OpenLane is an automated RTL to GDSII flow based on several components including
    - GNU Make
    - Python 3.6+ with PIP
    - Click, Pyyaml: pip3 install pyyaml click
+
+Run the following commands to Install Openlane
    
-git clone https://github.com/The-OpenROAD-Project/OpenLane.git
+- git clone https://github.com/The-OpenROAD-Project/OpenLane.git
 
-cd OpenLane/
+- cd OpenLane/
 
-make openlane
+- make openlane
 
-make pdk
+- make pdk
 
-make test # This a ~5 minute test that verifies that the flow and the pdk were properly installed
+- make test # This a ~5 minute test that verifies that the flow and the pdk were properly installed
 
 
 
