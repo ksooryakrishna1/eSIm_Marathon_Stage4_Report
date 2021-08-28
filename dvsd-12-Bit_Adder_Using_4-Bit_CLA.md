@@ -47,7 +47,22 @@ Terminal snap (To perform pre-layout simulation)
 
 ![placem_ana](https://user-images.githubusercontent.com/52724861/131198401-c7654856-0a51-4141-9497-ab4febd547e0.png)
 
+- Routing Resources Analysis
+
+![rout_ana](https://user-images.githubusercontent.com/52724861/131203035-dcc61a5c-67d0-4761-94dc-93466304077c.png)
+
+- Final Congestion Report
+
+![cong_rep](https://user-images.githubusercontent.com/52724861/131203060-bd16235d-c39b-4bc9-a05b-2a9db12facce.png)
+
+- Complete Detail Routing
+
+![comp_rout](https://user-images.githubusercontent.com/52724861/131203083-a1c5e6b8-8367-4430-aafb-1fc23cc1914b.png)
+
 - Placement View
 
 ![placem](https://user-images.githubusercontent.com/52724861/131198167-6e192e0d-7511-492a-963a-f40ae35a504b.png)
+
+## Layout
+
 
