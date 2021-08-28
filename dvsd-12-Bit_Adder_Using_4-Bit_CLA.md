@@ -9,6 +9,10 @@ This work is to prodece a clean GDS required to print photomasks used for the fa
 
 # OpenLane
 OpenLane is an automated RTL to GDSII flow based on several components including OpenROAD, Yosys, Magic, Netgen, Fault and custom methodology scripts for design exploration and optimization. For more information check [GitHub Pages](https://openlane.readthedocs.io/en/latest/).
+
+![openlane](https://user-images.githubusercontent.com/52724861/131204189-a078f1b7-29b2-4b99-988f-a1ded0f8d93a.png)
+
+
 # Running OpenLane
 Use the command - make mount
 
